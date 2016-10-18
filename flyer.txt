@@ -1,0 +1,6 @@
+ACM Python Workshop ofr Beginners
+
+Join the ACM this coming Tuesday, October 25 at 7:00 PM for our beginners' Python workshop!
+Participants will learn the basics of Python syntax, and build parts of a desktop
+application as a practice exercise.  Some basic experience in programming is
+preferable, for example a high-school level programming course.  Non-majors are welcome.
