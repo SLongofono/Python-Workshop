@@ -15,7 +15,7 @@ class Display(tk.Frame):
 		self.pic = tk.PhotoImage(file="radar.gif")
 		self.can = tk.Canvas(self, width=326, height=326)
 
-		'''.
+		'''
 		The anchor option below refers to how the image will be
 		positioned within the canvas.  Here, we have entered the 
 		coordinates of the exact center of the canvas. Anchor will 
@@ -23,7 +23,7 @@ class Display(tk.Frame):
 		'''
 		self.can.create_image(163,163, anchor=tk.CENTER, image=self.pic)
 
-		'''.
+		'''
 		The grid manager determines the position and any padding
 		sticky option refers to what edge it will align with
 		from N,S,E,W.  Stretching is done by specifying two
@@ -56,7 +56,7 @@ class Display(tk.Frame):
 		#Replace it by the current time now that we don't need it anymore
 		valuesList[0] = str(datetime.datetime.now())
 
-		'''.
+		'''
 		Create text labels within our table frame and grid them
 		note that by specifiying self.table, the grid manager
 		knows to arrange the labels within this inner frame
@@ -73,7 +73,7 @@ class Display(tk.Frame):
 		#	it for every item in our 'valuesList' variable
 		#
 
-		'''.
+		'''
 		The frame widget allows for borders to be specified.  By placing
 		each label in a frame with a thin border, the effect is a
 		table when they are all placed next to each other.
@@ -97,7 +97,7 @@ print "\nFetching weather data . . .\n"
 
 ##### END OF YOUR CODE #####
 
-'''.
+'''
 The final step is instantiating our display and showing it.
 This will assemble the display, add a title, and display it until
 the quit button is clicked.

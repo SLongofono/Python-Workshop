@@ -1,14 +1,14 @@
 import string
 import re
 
-'''.
+'''
 This method 'normalizes' whitespace in a string.  It removes tabs and newlines,
 and replaces any blocks of spaces with a single space
 '''
 def stripWhiteSpace(s):
 	return " ".join(s.rstrip().lstrip().split())
 
-'''.
+'''
 This method removes html tags by systematically removing the indices between
 angle brackets.  It assumes that the input is valid html, implying that
 every open angle bracket has a matching close angle bracket.
@@ -16,7 +16,7 @@ every open angle bracket has a matching close angle bracket.
 def reNoTags(s):
 	return(re.sub('<[^<]+?>', '', s))
 
-'''.
+'''
 This function is written to parse weather data from www.wunderground.com
 Take a look at the output of the fetch script and figure out how to get the pieces
 you want to show in your application.  This script is already set up to fetch and

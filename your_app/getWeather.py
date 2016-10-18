@@ -4,13 +4,13 @@ from bs4 import BeautifulSoup
 import re
 import os
 
-'''.
+'''
 Change this to your zip code for now.  Later on, this can be populated with
 command line arguments when it is called from the WConsole.py program
 '''
 zip = "66049"
 
-'''.
+'''
 The mobile website is more simple and less likely to change.  Mobile phones
 vary in software, platform, and ability, so the site itself is limited to
 only basic html for compatibility.
@@ -31,7 +31,7 @@ temp.close()
 
 print "Parsing weather data . . .\n"
 
-'''.
+'''
 Below is a simple way to catch problems.  Typically, the OS will return
 a zero if everything went well when a command was executed.  This
 setup allows us to catch the number returned and see if anything went
@@ -42,7 +42,7 @@ sysReturn = os.system("python strip.py")
 if sysReturn != 0:
 	print "Oops, something went wrong, check the testDump.txt file for unusual data, and make sure strip.py is present.\n"
 
-'''.
+'''
 Below is another way to catch problems.  Some things within the try: section
 have the potential to crash the program.  The except: section will only
 run if something goes wrong.  Here, we use some built-in features of exceptions
