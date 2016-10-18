@@ -1,0 +1,776 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+ <head>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <title>
+   Weather Underground (Mobile)
+  </title>
+  <link href="https://www.wunderground.com/us/ks/lawrence" rel="canonical"/>
+  <link href="http://icons.wunderground.com/css/mobile_base.css" media="all" rel="stylesheet" type="text/css"/>
+  <script type="text/javascript">
+   var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+		(function(){ var gads = document.createElement('script');
+		gads.async = true; gads.type = 'text/javascript';
+		var useSSL = 'https:' == document.location.protocol;
+		gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt_mobile.js';
+		var node = document.getElementsByTagName('script')[0];
+		node.parentNode.insertBefore(gads, node);
+		})();
+  </script>
+  <script type="text/javascript">
+   googletag.cmd.push(function() {
+		var slottop= googletag.defineSlot('/7646/mobile_feature_wunderground_us/local_forecasts',[[320,51]],'div-gpt-ad-615639597871654305-top').setTargeting('pos',['mw_top']).setTargeting('atf',['1']).addService(googletag.pubads());
+		var slotbot= googletag.defineSlot('/7646/mobile_feature_wunderground_us/local_forecasts',[[300,251]],'div-gpt-ad-615639597871654305-bot').setTargeting('pos',['mw_bot']).setTargeting('atf',['0']).addService(googletag.pubads());
+		googletag.pubads().setTargeting('excl',['wund']).setTargeting('plat',['wund_mw']).setTargeting('tf',['today']).setTargeting('loc',['66049$4']).setTargeting('ent',['zip']).setTargeting('zip',['66049']).setTargeting('cid',['12']).setTargeting('dma',['605']).setTargeting('ct',['Lawrence']).setTargeting('st',['KS']).setTargeting('cc',['US']).setTargeting('lang',['EN']).setTargeting('locale',['EN_US']).setTargeting('tmp',['80l']).setTargeting('tmpr',['warm']).setTargeting('plln',['hi']).setTargeting('hmid',['lo']).setTargeting('cnd',['clr']).setTargeting('fhi',['80h']).setTargeting('fhr',['warm']).setTargeting('fli',['50l']).setTargeting('flr',['thaw']).setTargeting('fc1',['clr']).setTargeting('fc2',['sun']).setTargeting('fc3',['cld']).setTargeting('baro',['rsng']);
+		googletag.pubads().collapseEmptyDivs();
+		googletag.pubads().enableAsyncRendering();
+		googletag.enableServices();
+		});
+  </script>
+ </head>
+ <body>
+  <div style="margin-bottom: 10px;">
+   <div id="div-gpt-ad-615639597871654305-top">
+    <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('div-gpt-ad-615639597871654305-top'); });
+    </script>
+   </div>
+  </div>
+  <div align="center">
+  </div>
+  <div align="center">
+   <a href="#conditions">
+    Current
+   </a>
+   |
+   <a href="#radar">
+    Radar
+   </a>
+   |
+   <a href="#forecast">
+    Forecast
+   </a>
+   |
+   <a href="http://mobile.wunderground.com/satellite/vis/1k/US/KS/Lawrence.html">
+    Satellite
+   </a>
+  </div>
+  <table>
+   <tr>
+    <td>
+     <center>
+      <table border="1" width="100%">
+       <tr>
+        <td colspan="2">
+         <a name="conditions">
+         </a>
+         Updated:
+         <b>
+          6:34 PM CDT on October 17, 2016
+         </b>
+         <br/>
+         Observed at
+         <b>
+          Pioneer Ridge, Lawrence, Kansas
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Temperature
+        </td>
+        <td>
+         <span class="nowrap">
+          <b>
+           82.8
+          </b>
+          °F
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           28.2
+          </b>
+          °C
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Humidity
+        </td>
+        <td>
+         <b>
+          58%
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Dew Point
+        </td>
+        <td>
+         <span class="nowrap">
+          <b>
+           66
+          </b>
+          °F
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           19
+          </b>
+          °C
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Wind
+        </td>
+        <td>
+         <b>
+          South
+         </b>
+         at
+         <span class="nowrap">
+          <b>
+           0.0
+          </b>
+          mph
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           0.0
+          </b>
+          km/h
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Pressure
+        </td>
+        <td>
+         <span class="nowrap">
+          <b>
+           29.41
+          </b>
+          in
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           996
+          </b>
+          hPa
+         </span>
+         <b>
+          (Rising)
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Conditions
+        </td>
+        <td>
+         <b>
+          Clear
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Visibility
+        </td>
+        <td>
+         <span class="nowrap">
+          <b>
+           10.0
+          </b>
+          miles
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           16.1
+          </b>
+          kilometers
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         UV
+        </td>
+        <td>
+         0 out of 16
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Clouds
+        </td>
+        <td>
+         <b>
+          Clear
+         </b>
+         (CLR)
+:
+  -
+         <br/>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Yesterday's Maximum
+        </td>
+        <td>
+         <span class="nowrap">
+          <b>
+           86
+          </b>
+          °F
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           30
+          </b>
+          °C
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Yesterday's Minimum
+        </td>
+        <td>
+         <span class="nowrap">
+          <b>
+           64
+          </b>
+          °F
+         </span>
+         /
+         <span class="nowrap">
+          <b>
+           18
+          </b>
+          °C
+         </span>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Sunrise
+        </td>
+        <td>
+         <b>
+          7:33 AM CDT
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Sunset
+        </td>
+        <td>
+         <b>
+          6:38 PM CDT
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Moon Rise
+        </td>
+        <td>
+         <b>
+          8:10 PM CDT
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Moon Set
+        </td>
+        <td>
+         <b>
+          9:06 AM CDT
+         </b>
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Moon Phase
+        </td>
+        <td>
+         <img alt="Moon Phase" border="0" height="48" src="http://icons.wunderground.com/graphics/moonpictsnew/moon17.gif" width="48"/>
+         <br/>
+         Waning Gibbous
+        </td>
+       </tr>
+       <tr>
+        <td>
+         Raw METAR
+        </td>
+        <td>
+         METAR KLWC 172252Z AUTO 18016KT 10SM CLR 29/18 A2944 RMK AO2 SLP959 T02940178 $
+        </td>
+       </tr>
+      </table>
+     </center>
+    </td>
+   </tr>
+   <tr>
+    <td width="100%">
+     <div align="center">
+      <h2>
+       Lawrence, KS
+      </h2>
+      <h3>
+       <a name="radar">
+       </a>
+       Current Radar
+      </h3>
+      <img alt="Radar Map" height="140" src="http://www.wunderground.com/data/nids/TWX19_thumb_t.jpg?1476747293" width="140"/>
+      <br/>
+      <a href="/auto/mobile/KS/Lawrence.html?feature=zoomradar">
+       Zoom into radar image
+      </a>
+      <br/>
+      <a href="/auto/mobile/KS/Lawrence.html?feature=animatedzoomradar">
+       Zoom into
+       <strong>
+        animated
+       </strong>
+       radar image
+      </a>
+      <br/>
+      <a name="forecast">
+      </a>
+      <br/>
+     </div>
+    </td>
+   </tr>
+   <tr>
+    <td>
+     <br/>
+     <center>
+      <div>
+       Forecast as of
+       <b>
+        4:05 PM CDT on January 17, 2016
+       </b>
+       from station
+       <span class="b">
+        KLWC
+       </span>
+      </div>
+      <div>
+       Forecast source:
+       <span class="b">
+        BestForecast
+       </span>
+       -
+       <a href="/cgi-bin/findweather/getForecast?setpref=EXPFCT&amp;value=0&amp;referer=%2fcgi%2dbin%2ffindweather%2fgetForecast%3fbrand%3dmobile%26query%3d66049">
+        NWS
+       </a>
+      </div>
+     </center>
+    </td>
+   </tr>
+   <tr>
+    <td align="left">
+     <b>
+      Monday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     Mainly clear. Lows overnight in the mid 50s.
+     <br/>
+     <br/>
+     <b>
+      Monday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_clear.gif" width="42"/>
+     <br/>
+     Generally clear. Low 56F. Winds SSW at 10 to 20 mph, becoming NW and decreasing to 5 to 10 mph. Winds could occasionally gust over 40 mph.
+     <br/>
+     <br/>
+     <b>
+      Tuesday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     Sunny skies. High 74F. Winds N at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Tuesday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_partlycloudy.gif" width="42"/>
+     <br/>
+     Partly cloudy. A stray shower or thunderstorm is possible. Low 51F. Winds NE at 5 to 10 mph.
+     <br/>
+     <br/>
+     <b>
+      Wednesday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/mostlycloudy.gif" width="42"/>
+     <br/>
+     A mix of clouds and sun early, then becoming cloudy later in the day. High 69F. Winds NE at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Wednesday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_partlycloudy.gif" width="42"/>
+     <br/>
+     Cloudy skies early will become partly cloudy later at night. Low 49F. Winds N at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Thursday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/partlycloudy.gif" width="42"/>
+     <br/>
+     Some clouds in the morning will give way to mainly sunny skies for the afternoon. High 63F. Winds N at 10 to 20 mph.
+     <br/>
+     <br/>
+     <b>
+      Thursday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_clear.gif" width="42"/>
+     <br/>
+     Clear skies. Low around 40F. Winds light and variable.
+     <br/>
+     <br/>
+     <b>
+      Friday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     A mainly sunny sky. High 67F. Winds S at 10 to 20 mph.
+     <br/>
+     <br/>
+     <b>
+      Friday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_clear.gif" width="42"/>
+     <br/>
+     Clear. Low around 45F. Winds WSW at 5 to 10 mph.
+     <br/>
+     <br/>
+     <b>
+      Saturday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     A mainly sunny sky. High 71F. Winds WNW at 5 to 10 mph.
+     <br/>
+     <br/>
+     <b>
+      Saturday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_clear.gif" width="42"/>
+     <br/>
+     Clear. Low 49F. Winds SSE at 5 to 10 mph.
+     <br/>
+     <br/>
+     <b>
+      Sunday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     Mainly sunny. High 74F. Winds S at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Sunday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_clear.gif" width="42"/>
+     <br/>
+     Clear. Low 49F. Winds SE at 5 to 10 mph.
+     <br/>
+     <br/>
+     <b>
+      Monday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     Sunny. High 74F. Winds SE at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Monday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_clear.gif" width="42"/>
+     <br/>
+     Mostly clear skies. Low around 55F. Winds SE at 5 to 10 mph.
+     <br/>
+     <br/>
+     <b>
+      Tuesday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/clear.gif" width="42"/>
+     <br/>
+     Mostly sunny skies. High 72F. Winds SSE at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Tuesday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_chancetstorms.gif" width="42"/>
+     <br/>
+     Scattered thunderstorms in the evening, mainly cloudy late with a few showers. Low 54F. Winds SSE at 5 to 10 mph. Chance of rain 60%.
+     <br/>
+     <br/>
+     <b>
+      Wednesday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/mostlycloudy.gif" width="42"/>
+     <br/>
+     Considerable cloudiness. High near 70F. SW winds shifting to NNW at 15 to 25 mph.
+     <br/>
+     <br/>
+     <b>
+      Wednesday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_partlycloudy.gif" width="42"/>
+     <br/>
+     Partly cloudy. Low 47F. Winds NNE at 10 to 20 mph.
+     <br/>
+     <br/>
+     <b>
+      Thursday
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/partlycloudy.gif" width="42"/>
+     <br/>
+     Partly cloudy. High 67F. Winds SSE at 10 to 15 mph.
+     <br/>
+     <br/>
+     <b>
+      Thursday Night
+     </b>
+     <br/>
+     <img alt="" border="1" height="42" src="http://icons.wunderground.com/graphics/fun_map/nt_partlycloudy.gif" width="42"/>
+     <br/>
+     A few clouds. Low 51F. Winds light and variable.
+     <br/>
+     <br/>
+     <br/>
+     <div align="center">
+      <a href="/auto/mobile/DisplayDisc.asp?DiscussionCode=TOP&amp;StateCode=KS&amp;SafeCityName=Lawrence">
+       Scientific forecaster discussion (NWS)
+      </a>
+     </div>
+    </td>
+   </tr>
+  </table>
+  <div style="margin-top: 10px;">
+   <div id="div-gpt-ad-615639597871654305-bot">
+    <script type="text/javascript">
+     googletag.cmd.push(function() { googletag.display('div-gpt-ad-615639597871654305-bot'); });
+    </script>
+   </div>
+  </div>
+  <div id="moFooter">
+   <p>
+    Units:
+    <a href="http://mobile.wunderground.com/cgi-bin/findweather/getForecast?brand=mobile_english&amp;query=66049">
+     English
+    </a>
+    |
+    <a href="http://mobile.wunderground.com/cgi-bin/findweather/getForecast?brand=mobile_metric&amp;query=66049">
+     Metric
+    </a>
+   </p>
+   <form action="/cgi-bin/findweather/getForecast">
+    <input name="brand" type="hidden" value="mobile"/>
+    <div>
+     Find the Weather for any
+     <span class="b">
+      City
+     </span>
+     ,
+     <span class="b">
+      State
+     </span>
+     or
+     <span class="b">
+      Zipcode
+     </span>
+     , or
+     <span class="b">
+      Country:
+     </span>
+    </div>
+    <div>
+     <input class="text" name="query" size="25" type="text"/>
+     <br/>
+     <input type="submit" value="Fast Forecast"/>
+    </div>
+   </form>
+   <p>
+    <a href="/auto/mobile/?1">
+     <font face="arial" size="2">
+      U.S. State List
+     </font>
+    </a>
+    |
+    <a href="/severe.asp">
+     <font face="arial" size="2">
+      Severe Weather
+     </font>
+    </a>
+    |
+    <a href="/tropical/">
+     <font face="arial" size="2">
+      Tropical Storms
+     </font>
+    </a>
+    |
+    <a href="/ski/">
+     <font face="arial" size="2">
+      Ski Conditions
+     </font>
+    </a>
+    <br/>
+    <a href="/auto/mobile/?1">
+     <font face="arial" size="2">
+      United States
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/CN_ST_Index.html">
+     <font face="arial" size="2">
+      Canada
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/CA_ST_Index.html">
+     <font face="arial" size="2">
+      Central America
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/SA_ST_Index.html">
+     <font face="arial" size="2">
+      South America
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/AS_ST_Index.html">
+     <font face="arial" size="2">
+      Asia
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/EU_ST_Index.html">
+     <font face="arial" size="2">
+      Europe
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/AU_ST_Index.html">
+     <font face="arial" size="2">
+      Australia
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/AF_ST_Index.html">
+     <font face="arial" size="2">
+      Africa
+     </font>
+    </a>
+    |
+    <a href="/auto/mobile/global/IS_ST_Index.html">
+     <font face="arial" size="2">
+      Islands
+     </font>
+    </a>
+   </p>
+   <div>
+    <img alt="Weather Underground" height="25" src="http://icons.wunderground.com/graphics/smalllogo.gif" width="48"/>
+   </div>
+   <p>
+    <a href="http://www.wunderground.com/members/tos.asp">
+     © Copyright 2016
+    </a>
+    <br/>
+    The Weather Company, LLC
+   </p>
+  </div>
+  <!-- Begin comScore Tag -->
+  <script>
+   var _comscore = _comscore || [];
+		_comscore.push({ c1: "2", c2: "6164429" });
+		(function() {
+		var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+		s.src = (document.location.protocol == "https:" ? "https://sb" : "http://b") + ".scorecardresearch.com/beacon.js";
+		el.parentNode.insertBefore(s, el);
+		})();
+  </script>
+  <noscript>
+   <img src="http://b.scorecardresearch.com/p?c1=2&amp;c2=6164429&amp;cv=2.0&amp;cj=1"/>
+  </noscript>
+  <!-- End comScore Tag -->
+  <script type="text/javascript">
+   var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+		document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+  </script>
+  <script type="text/javascript">
+   try {
+		var pageTracker = _gat._getTracker("UA-5000463-2");
+		pageTracker._trackPageview();
+		} catch(err) {}
+  </script>
+  <!-- SiteCatalyst -->
+  <script src="//icons.wxug.com/scripts/s_code.js?v=1.2" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   s.pageName="ZipForecast: /local_forecasts";
+		s.channel="Mobile";
+		s.prop1="Other Content";
+		s.prop2="Mobile > ZipForecast";
+		s.events="";
+	<!-- Member Type -->
+		s.eVar12="non-member";
+	<!-- Search Term -->
+		s.eVar11="66049";
+	<!-- Search Type -->
+		s.eVar17="zip";
+	<!-- Search Error -->
+	s.eVar18="";
+	var s_code=s.t();if(s_code)document.write(s_code);
+  </script>
+  <!-- End SiteCatalyst -->
+ </body>
+</html>
