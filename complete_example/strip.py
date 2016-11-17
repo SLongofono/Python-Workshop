@@ -1,23 +1,18 @@
 import string
 import re
 
-'''
-This method 'normalizes' whitespace in a string.  It removes tabs and newlines,
-and replaces any blocks of spaces with a single space
-'''
+"""This method 'normalizes' whitespace in a string.  It removes tabs and newlines,
+and replaces any blocks of spaces with a single space"""
 def stripWhiteSpace(s):
 	return " ".join(s.rstrip().lstrip().split())
 
-'''
-This method removes html tags by systematically removing the indices between
+'''This method removes html tags by systematically removing the indices between
 angle brackets.  It assumes that the input is valid html, implying that
-every open angle bracket has a matching close angle bracket.
-'''
+every open angle bracket has a matching close angle bracket.'''
 def reNoTags(s):
 	return(re.sub('<[^<]+?>', '', s))
 
-'''
-This function is written to parse weather data from www.wunderground.com
+'''This function is written to parse weather data from www.wunderground.com
 Take a look at the output of the fetch script and figure out how to get the pieces
 you want to show in your application.  This script is already set up to fetch and
 save the data, and then call the weatherParse() method with the result.  You take
@@ -48,15 +43,12 @@ def weatherParse(s):
 
     	#The find method returns -1 if it can't find the argument.  Wind gust is not
     	#always present, so we need to check if it is, and act accordingly
+	'''Each of our abbreviated names represents the index where that label
+	   begins.  Instead of trying to work out some way to separate the labels
+	   from the values, we simply split our string at the index of the next
+	   label.  This works so long as we know how many labels to expect and
+	   the order they are in.'''
 	if(winG == -1):
-
-	    '''
-	    Each of our abbreviated names represents the index where that label
-	    begins.  Instead of trying to work out some way to separate the labels
-	    from the values, we simply split our string at the index of the next
-	    label.  This works so long as we know how many labels to expect and
-	    the order they are in.
-   	    '''
 		myList.append(s[0:hum])
 		myList.append(s[hum:dew])
 		myList.append(s[dew:win])
